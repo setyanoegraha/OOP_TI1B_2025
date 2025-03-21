@@ -6,7 +6,7 @@ def hitung_luas_persegi(sisi):
 def hitung_luas_persegi_panjang(panjang, lebar):
     return panjang * lebar
 
-def hitung_luas_lingkarang(jari_jari):
+def hitung_luas_lingkaran(jari_jari):
     return 3.14 * (jari_jari ** 2)
 
 def hello_pray():
