@@ -1,0 +1,33 @@
+@startuml Senjata
+
+' ==== Kelas Abstrak Senjata ====
+abstract class Senjata {
+    # _nama: str
+    + __init__(nama: str): void
+    + serang(): void {abstract}
+    + kondisi: int <<property>> { get; set, abstract }
+    + info_nama(): str
+}
+
+' ==== Kelas Konkret Pedang ====
+class Pedang {
+    # _daya_tahan: int
+    + panjang_bilah: float
+    + __init__(nama: str, panjang_bilah: float): void
+    + serang(): void
+    + kondisi: int <<property>> { get; set }
+}
+
+' ==== Kelas Konkret Panah ====
+class Panah {
+    # _jumlah_anak_panah: int
+    + __init__(nama: str, jumlah_anak_panah: int): void
+    + serang(): void
+    + kondisi: int <<property>> { get; set }
+}
+
+' ==== Relasi Pewarisan ====
+Senjata <|-- Pedang
+Senjata <|-- Panah
+
+@enduml
