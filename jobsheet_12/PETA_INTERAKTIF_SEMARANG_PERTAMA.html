@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_22cb1fdd4e555cf766b5784880b2c459 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_22cb1fdd4e555cf766b5784880b2c459" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_22cb1fdd4e555cf766b5784880b2c459 = L.map(
+                "map_22cb1fdd4e555cf766b5784880b2c459",
+                {
+                    center: [-6.984, 110.4105],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c66d9a7afd391276ba7b5b09e96386d8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c66d9a7afd391276ba7b5b09e96386d8.addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+            var marker_52f4610d765e75b249347157364e3648 = L.marker(
+                [-6.984, 110.4105],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_6057c6fabaddc4fe766d118349d11056 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fd034d4aeaa12e23c9cd0d1d82b34648 = $(`<div id="html_fd034d4aeaa12e23c9cd0d1d82b34648" style="width: 100.0%; height: 100.0%;"><h4><b>Lawang Sewu</b></h4><i>Wisata Sejarah</i><br><br>Bangunan bersejarah peninggalan Belanda dengan banyak pintu.<br><br>Koordinat: (-6.9840, 110.4105)</div>`)[0];
+                popup_6057c6fabaddc4fe766d118349d11056.setContent(html_fd034d4aeaa12e23c9cd0d1d82b34648);
+            
+        
+
+        marker_52f4610d765e75b249347157364e3648.bindPopup(popup_6057c6fabaddc4fe766d118349d11056)
+        ;
+
+        
+    
+    
+            marker_52f4610d765e75b249347157364e3648.bindTooltip(
+                `<div>
+                     Lawang Sewu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ddc4a17bd642a924337101b60f7a3020 = L.marker(
+                [-6.9929, 110.42],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_a096ab1c8f8f7611f9741de449fd1313 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b75a3da86e75889ff55e9511d1afe975 = $(`<div id="html_b75a3da86e75889ff55e9511d1afe975" style="width: 100.0%; height: 100.0%;"><h4><b>Simpang Lima</b></h4><i>Landmark</i><br><br>Alun-alun pusat kota Semarang, tempat berkumpul populer.<br><br>Koordinat: (-6.9929, 110.4200)</div>`)[0];
+                popup_a096ab1c8f8f7611f9741de449fd1313.setContent(html_b75a3da86e75889ff55e9511d1afe975);
+            
+        
+
+        marker_ddc4a17bd642a924337101b60f7a3020.bindPopup(popup_a096ab1c8f8f7611f9741de449fd1313)
+        ;
+
+        
+    
+    
+            marker_ddc4a17bd642a924337101b60f7a3020.bindTooltip(
+                `<div>
+                     Simpang Lima
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8dd26ef002848f9641fa95261fab5c1a = L.marker(
+                [-6.9892, 110.4452],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_6ad6958a221572825a14872050a79adb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fdbb45105aa0af9d53f024cc59f081e1 = $(`<div id="html_fdbb45105aa0af9d53f024cc59f081e1" style="width: 100.0%; height: 100.0%;"><h4><b>Masjid Agung Jawa Tengah</b></h4><i>Tempat Ibadah (Umum)</i><br><br>Masjid besar dengan arsitektur megah dan menara pandang Asmaul Husna.<br><br>Koordinat: (-6.9892, 110.4452)</div>`)[0];
+                popup_6ad6958a221572825a14872050a79adb.setContent(html_fdbb45105aa0af9d53f024cc59f081e1);
+            
+        
+
+        marker_8dd26ef002848f9641fa95261fab5c1a.bindPopup(popup_6ad6958a221572825a14872050a79adb)
+        ;
+
+        
+    
+    
+            marker_8dd26ef002848f9641fa95261fab5c1a.bindTooltip(
+                `<div>
+                     Masjid Agung Jawa Tengah
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_51b24909613f09db7930f8f5c757971d = L.marker(
+                [-6.998, 110.403],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_8ededb3f7e20cddfb8af1dd7cd2c545b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d93753247a25c2455aa60c3889d680f4 = $(`<div id="html_d93753247a25c2455aa60c3889d680f4" style="width: 100.0%; height: 100.0%;"><h4><b>Klenteng Sam Poo Kong</b></h4><i>Tempat Ibadah (Umum)</i><br><br>Klenteng bersejarah peninggalan Laksamana Cheng Ho.<br><br>Koordinat: (-6.9980, 110.4030)</div>`)[0];
+                popup_8ededb3f7e20cddfb8af1dd7cd2c545b.setContent(html_d93753247a25c2455aa60c3889d680f4);
+            
+        
+
+        marker_51b24909613f09db7930f8f5c757971d.bindPopup(popup_8ededb3f7e20cddfb8af1dd7cd2c545b)
+        ;
+
+        
+    
+    
+            marker_51b24909613f09db7930f8f5c757971d.bindTooltip(
+                `<div>
+                     Klenteng Sam Poo Kong
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c50e1f3c60a89788587f8b1212aa743b = L.marker(
+                [-7.0375, 110.4875],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_0e20febe562ccf666cffe86222441217 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf8062e1a582bc3d5528f41094710b22 = $(`<div id="html_bf8062e1a582bc3d5528f41094710b22" style="width: 100.0%; height: 100.0%;"><h4><b>Brown Canyon</b></h4><i>Wisata Alam</i><br><br>Tebing bekas penambangan galian C yang unik menyerupai Grand Canyon.<br><br>Koordinat: (-7.0375, 110.4875)</div>`)[0];
+                popup_0e20febe562ccf666cffe86222441217.setContent(html_bf8062e1a582bc3d5528f41094710b22);
+            
+        
+
+        marker_c50e1f3c60a89788587f8b1212aa743b.bindPopup(popup_0e20febe562ccf666cffe86222441217)
+        ;
+
+        
+    
+    
+            marker_c50e1f3c60a89788587f8b1212aa743b.bindTooltip(
+                `<div>
+                     Brown Canyon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b8552be3d774be05d3f6ee2c7d6c4ed8 = L.marker(
+                [-6.9718, 110.4255],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_56022f1832df3ddc02db6bf1a223b7f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d17744e9672312ebbca8abbfc41087a = $(`<div id="html_2d17744e9672312ebbca8abbfc41087a" style="width: 100.0%; height: 100.0%;"><h4><b>Lumpia Gang Lombok</b></h4><i>Kuliner</i><br><br>Menu Andalan: Salah satu tempat makan lumpia legendaris dan otentik di Semarang.<br><br>Koordinat: (-6.9718, 110.4255)</div>`)[0];
+                popup_56022f1832df3ddc02db6bf1a223b7f7.setContent(html_2d17744e9672312ebbca8abbfc41087a);
+            
+        
+
+        marker_b8552be3d774be05d3f6ee2c7d6c4ed8.bindPopup(popup_56022f1832df3ddc02db6bf1a223b7f7)
+        ;
+
+        
+    
+    
+            marker_b8552be3d774be05d3f6ee2c7d6c4ed8.bindTooltip(
+                `<div>
+                     Lumpia Gang Lombok
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c07ea7390b8000f3ea21218dca5182d7 = L.marker(
+                [-6.969, 110.3875],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_59ae01896da32468ca0910422d7ed4a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66f21b63613c000f804f51f1a80c2ca9 = $(`<div id="html_66f21b63613c000f804f51f1a80c2ca9" style="width: 100.0%; height: 100.0%;"><h4><b>Kota Lama</b></h4><i>Wisata Sejarah</i><br><br>Kawasan cagar budaya dengan bangunan-bangunan kuno bergaya Eropa.<br><br>Koordinat: (-6.9690, 110.3875)</div>`)[0];
+                popup_59ae01896da32468ca0910422d7ed4a5.setContent(html_66f21b63613c000f804f51f1a80c2ca9);
+            
+        
+
+        marker_c07ea7390b8000f3ea21218dca5182d7.bindPopup(popup_59ae01896da32468ca0910422d7ed4a5)
+        ;
+
+        
+    
+    
+            marker_c07ea7390b8000f3ea21218dca5182d7.bindTooltip(
+                `<div>
+                     Kota Lama
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_69a2037aed2274ef22eedcf5f059944d = L.marker(
+                [-6.9585, 110.3875],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_c9da180e2bc624acb4e24c4291df3bc5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df0104b4beb0fc042a666a642954b2d4 = $(`<div id="html_df0104b4beb0fc042a666a642954b2d4" style="width: 100.0%; height: 100.0%;"><h4><b>Pantai Marina</b></h4><i>Wisata Alam</i><br><br>Kawasan pantai rekreasi di bagian utara kota.<br><br>Koordinat: (-6.9585, 110.3875)</div>`)[0];
+                popup_c9da180e2bc624acb4e24c4291df3bc5.setContent(html_df0104b4beb0fc042a666a642954b2d4);
+            
+        
+
+        marker_69a2037aed2274ef22eedcf5f059944d.bindPopup(popup_c9da180e2bc624acb4e24c4291df3bc5)
+        ;
+
+        
+    
+    
+            marker_69a2037aed2274ef22eedcf5f059944d.bindTooltip(
+                `<div>
+                     Pantai Marina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b39e3312f8f1ad528e8c62c8d0518522 = L.marker(
+                [-7.278, 110.401],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_c8477949b38507224a9ceef1170703a3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_961709215ed8a49bd95d6949fa8332f6 = $(`<div id="html_961709215ed8a49bd95d6949fa8332f6" style="width: 100.0%; height: 100.0%;"><h4><b>Kampoeng Kopi Banaran</b></h4><i>Wisata Alam</i><br><br>Agrowisata kebun kopi dengan pemandangan dan restoran.<br><br>Koordinat: (-7.2780, 110.4010)</div>`)[0];
+                popup_c8477949b38507224a9ceef1170703a3.setContent(html_961709215ed8a49bd95d6949fa8332f6);
+            
+        
+
+        marker_b39e3312f8f1ad528e8c62c8d0518522.bindPopup(popup_c8477949b38507224a9ceef1170703a3)
+        ;
+
+        
+    
+    
+            marker_b39e3312f8f1ad528e8c62c8d0518522.bindTooltip(
+                `<div>
+                     Kampoeng Kopi Banaran
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc228f678e90022dd94f86ad8f335a5b = L.marker(
+                [-6.9715, 110.4235],
+                {
+}
+            ).addTo(map_22cb1fdd4e555cf766b5784880b2c459);
+        
+    
+        var popup_2e11f821b7c244409c14b632f6580ddc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba8f71435c1f528b33a7250aa06e3741 = $(`<div id="html_ba8f71435c1f528b33a7250aa06e3741" style="width: 100.0%; height: 100.0%;"><h4><b>Toko Oen</b></h4><i>Kuliner</i><br><br>Menu Andalan: Restoran dan toko es krim legendaris sejak zaman kolonial.<br><br>Koordinat: (-6.9715, 110.4235)</div>`)[0];
+                popup_2e11f821b7c244409c14b632f6580ddc.setContent(html_ba8f71435c1f528b33a7250aa06e3741);
+            
+        
+
+        marker_dc228f678e90022dd94f86ad8f335a5b.bindPopup(popup_2e11f821b7c244409c14b632f6580ddc)
+        ;
+
+        
+    
+    
+            marker_dc228f678e90022dd94f86ad8f335a5b.bindTooltip(
+                `<div>
+                     Toko Oen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
