@@ -1,55 +1,86 @@
-# OOP_TI1B_2025
+# 📘 OOP_TI1B_2025
 
-📌 Deskripsi
+## 📌 Description
 
-Repositori ini digunakan untuk pelaksanaan praktikum Object-Oriented Programming (OOP) Tahun 2025 selama semester 2 untuk kelas TI1B. Setiap jobsheet dalam repositori ini berisi latihan praktikum dan penugasan terkait konsep OOP menggunakan Python.
+This repository contains practical materials for the **Object-Oriented Programming (OOP)** course in the **second semester of 2025**, specifically for **class TI1B**.  
+It includes exercises and assignments designed to reinforce OOP concepts using **Python**.
 
-📂 Struktur Repositori
 
-Repositori ini memiliki struktur sebagai berikut:
 
-OOP_TI1B_2025/
-│── jobsheet-1/
-│   ├── praktikum_1.py
-│   ├── penugasan_1.py
-│
-│── jobsheet-2/
-│   ├── praktikum_2.py
-│   ├── penugasan_2.py
-│
-│── jobsheet-3/
-│   ├── praktikum_3.py
-│   ├── penugasan_3.py
-│
-│── ...
-│
-└── README.md
+## 🛠 Technologies Used
 
-Setiap jobsheet memiliki folder tersendiri yang berisi satu file praktikum dan satu file penugasan.
+- **Python** — The main programming language used for all exercises and assignments.
+- **Visual Studio Code** — Recommended code editor for development.
+- **Jupyter Notebook Extension (in VS Code)** — For interactive code execution.
+- **Google Colab** *(optional)* — Cloud-based platform to run `.ipynb` or `.py` files online.
 
-🛠 Teknologi yang Digunakan
 
-Python (Bahasa pemrograman utama)
+## ✅ Setup & Installation Guide
 
-Google Colab (Untuk menjalankan dan mengedit kode secara online)
+Follow these steps to set up and run the project locally:
 
-🚀 Cara Menggunakan
+### 1. Clone the Repository
 
-Clone repositori ini ke lokal:
+```bash
+git clone https://github.com/setyanoegraha/OOP_TI1B_2025.git
+cd OOP_TI1B_2025
+```
 
-git clone https://github.com/username/OOP_TI1B_2025.git
+### 2. Create and Activate a Virtual Environment
 
-Buka file yang diinginkan di Google Colab:
+🔹 **Windows**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-Upload ke Google Drive
+🔹 **macOS / Linux**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-Buka melalui Google Colab
+### 3. Install Dependencies
 
-Jalankan dan modifikasi sesuai kebutuhan.
+Use the included `requirements.txt` file:
 
-👤 Kontributor
+```bash
+pip install -r requirements.txt
+```
 
-Repositori ini dikelola secara individu oleh Pandu Setya Nugraha.
+### 4. Run the Project in VS Code
 
-💡 Catatan: Repositori ini dibuat untuk dokumentasi pembelajaran pribadi dalam mata kuliah OOP dan tidak menerima kontribusi dari pihak lain.
+Install the following extensions in VS Code:
+
+- **Python**
+- **Jupyter**
+
+#### Steps:
+
+1. Open the project folder in VS Code.
+2. Select the Python interpreter from the virtual environment.
+3. Open `.py` or `.ipynb` files.
+4. Run them interactively.
+
+## 📂 Jobsheet Format
+
+Each `jobsheet_xx` folder typically contains a practical for guided coding and An assignment for personal work
+
+> 🔸 **Note:** The exact structure may vary depending on the topic.
+
+## 👤 Maintainer
+
+[Pandu Setya Nugraha](https://github.com/setyanoegraha)  
+**Politeknik Negeri Semarang**  
+
+
+## 📄 License
+
+This repository is created strictly for **archival, personal learning, and documentation purposes**.  
+External contributions are **not accepted**.
+
+You are free to **copy, adapt, and learn** from this material for educational use.  
+However, please avoid blind copy-pasting — **understand what you write, and write what you understand**.
+
+> 📚 Copy wisely, learn deeply. Happy studying!
 
